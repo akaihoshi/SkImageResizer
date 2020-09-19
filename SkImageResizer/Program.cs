@@ -36,7 +36,7 @@ namespace SkImageResizer
 
             try
             {
-                await imageProcess.ResizeImagesAsync(sourcePath, destinationPath2, 2.0);
+                 await imageProcess.ResizeImagesAsync(sourcePath, destinationPath2, 2.0);
             }
             catch (OperationCanceledException ex)
             {
